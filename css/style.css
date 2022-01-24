@@ -1,0 +1,148 @@
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        
+        ol,
+        ul {
+            list-style: none;
+        }
+        
+        .wrapper {
+            width: 90%;
+            max-width: 1350px;
+            margin: 0 auto;
+        }
+        
+        #gallery {
+            padding: 50px 0;
+        }
+        
+        #gallery h1 {
+            text-align: center;
+            font-size: 36px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #41447D;
+        }
+        
+        #gallery .content h2 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: #41447D;
+        }
+        
+        #gallery .content ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        #gallery .content ul li {
+            width: 23%;
+            margin-right: 24px;
+        }
+        
+        #gallery .content ul li:nth-child(n+5) {
+            margin-top: 24px;
+        }
+        
+        #gallery .content ul li img {
+            width: 100%;
+            border-radius: 8px;
+            display: block;
+        }
+        
+        #gallery .content ul li:nth-child(4) {
+            margin-right: 0;
+        }
+        
+        #gallery .content ul li:last-child {
+            margin-right: 0;
+        }
+        
+        @media all and (max-width:980px) {
+            #gallery h1 {
+                font-size: 34px;
+                margin-bottom: 24px;
+            }
+            #gallery .content h1 {
+                font-size: 30px;
+            }
+            #gallery .content ul li {
+                width: 30%;
+            }
+            #gallery .content ul li:nth-child(3n) {
+                margin-right: 0;
+            }
+            #gallery .content ul li:nth-child(n+4) {
+                margin-top: 24px;
+            }
+            #gallery .content ul li:nth-child(4) {
+                margin-right: 24px;
+            }
+            #gallery .content ul li:nth-child(6) {
+                margin-right: 0;
+            }
+        }
+        
+        @media all and (max-width:640px) {
+            #gallery .content ul li {
+                width: 40%;
+            }
+            #gallery .content ul li:nth-child(2n) {
+                margin-right: 0;
+            }
+            #gallery .content ul li:nth-child(n+3) {
+                margin-top: 24px;
+            }
+            #gallery .content ul li:nth-child(3n) {
+                margin-right: 24px;
+            }
+            #gallery .content ul li:nth-child(6) {
+                margin-right: 0;
+            }
+        }
+        
+        @media all and (max-width:480px) {
+            #gallery h1 {
+                font-size: 30px;
+                margin-bottom: 20px;
+            }
+            #gallery {
+                padding-top: 0;
+            }
+            #gallery .content h1 {
+                font-size: 26px;
+            }
+            #gallery .content h2 {
+                font-size: 20px;
+            }
+            #gallery .content ul li {
+                width: 85%;
+                margin-right: 0;
+            }
+            #gallery .content ul li:nth-child(n+2) {
+                margin-top: 24px;
+            }
+            #gallery .content ul li:nth-child(3n) {
+                margin-right: 0;
+            }
+        }
+        
+        @media all and (max-width:360px) {
+            #gallery h1 {
+                font-size: 24px;
+            }
+            #gallery .content h1 {
+                font-size: 22px;
+            }
+        }
+        
+        @media all and (max-width:320px) {
+            #gallery h1 {
+                font-size: 22px;
+            }
+        }
